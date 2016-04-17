@@ -20,16 +20,7 @@ Putting the following lines at the end of VoteReward
 Commands:
   - "rankpoints {USERNAME} 1"
 
-or running the command "rankpoints awzaw 1" on console, will add 1 point to the player awzaw's current rank points total, then check the config.yml which must be configured in this format, for example:
-
-Ranks:
-- Member
-- Builder
-- Admin
-Points:
-- 0
-- 5
-- 50
+or running the command "rankpoints awzaw 1" on console, will add 1 point to the player awzaw's current rank points total, then check the config.yml to determine if the player should be given a  PurePerms Rank (group).
 
 You MUST have PurePerms installed, the Ranks in RankPoints config.yml MUST all be existing PurePerms groups.
 
